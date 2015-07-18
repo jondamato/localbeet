@@ -1,11 +1,6 @@
-![](https://raw.githubusercontent.com/meteor-vegas/meteorgram/master/resources/icons/icon-60x60@2x.png)
 
-# Meteorgram
+Localbeet is an iOS application that allows users to find great locally-sourced food and share it with their friends. 
 
-Meteorgram is an Instagram clone built in [Meteor.js](http://meteor.com) that shows how quickly and easily a cross-platform, native mobile app can be built less than 150 lines of JavaScript.
+To create Localbeet, I built map features into [Meteorgram](https://github.com/meteor-vegas/meteorgram), an Instagram clone developed in [Meteor](https://www.meteor.com/). 
 
-It was built as a demonstration for the Las Vegas [Meteor Day](http://meteorday.com/) event. For instructions on how to install and run, see the following documentation:
-
-* [Installing Meteor](https://www.meteor.com/install)
-* [Deploying to Meteor](https://www.meteor.com/try/6)
-* [Running on Mobile](https://www.meteor.com/try/7)
+This is just the prototype and many more features are forthcoming including social integration, a rewards/rating system, and vendor tagging.
