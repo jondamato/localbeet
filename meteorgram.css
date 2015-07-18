@@ -1,0 +1,315 @@
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #444545;
+}
+
+.row {
+  height: 0;
+}
+
+.content {
+  position: absolute;
+  top: 27px;
+  right: 0;
+  bottom: 70px;
+  left: 0;
+  overflow: auto;
+  /*background-color: #d4d8e6;*/
+  background-color: #444545;
+  -webkit-overflow-scrolling: touch;
+}
+
+.photos-list {
+  padding: 12px;
+  border-radius: 0;
+}
+
+.caption > h3, p {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.caption p {
+  float: right;
+  margin-top: 13px;
+  background-color: #FAFAFF;
+}
+
+.caption form input {
+  text-transform: lowercase;
+}
+
+a {
+  color: #85739B;
+}
+
+.btn-primary {
+  background-color: #85739B;
+  border: none;
+  text-transform: lowercase;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #574C68;
+}
+
+.btn-primary.btn-disabled {
+  background-color: #C6BCD3;
+  color: #fff;
+
+}
+.navbar-inverse {
+  background-color: #85739B;
+  color: #fff;
+  min-height: 30px;
+  border: none;
+}
+
+.navbar-inverse .navbar-text {
+  text-align: center;
+
+}
+
+.navbar-text {
+  margin-top: 3px;
+  text-transform: lowercase;
+}
+
+.navbar-text .login-close-text-clear {
+  margin-bottom: 10px;
+}
+
+.navbar-text .login-button {
+  background-color: #85739B !important;
+}
+
+.login-link-text,
+.login-link-and-dropdown-list * {
+  text-decoration: none !important;
+}
+
+.navbar-inverse h3 {
+  font-family: 'Yellowtail', cursive;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-inverse a {
+  color: #fff;
+}
+
+.navbar-inverse .btn-primary {
+  background-color: #fff;
+  color: #85739B;
+  margin-right: 15px;
+}
+
+.navbar-inverse .accounts-dialog a {
+  color: #85739B;
+}
+
+.accounts-dialog {
+  position: absolute;
+  border: none;
+  /*border-radius: 0;*/
+  left: 0 !important;
+  margin-left: -99px;
+  left: 50%;
+  /*margin-left: -80px;*/
+  
+}
+
+.accounts-dialog * {
+  border-radius: 0 !important;
+  background-color: #EAFFFD;
+}
+
+#login-username, #login-password {
+  outline: none;
+}
+
+#login-buttons .login-button, 
+.accounts-dialog .login-button {
+  border: none;
+  padding: 5px 8px;
+}
+
+.login-close-text {
+  float: none !important;
+}
+
+.col-xs-12 {
+  float: none;
+}
+
+.thumbnail  {
+  /*border-radius: 4px 4px 0 0;*/
+  padding: 0;
+  border: none;
+  border-radius: 0px;
+}
+
+.list-group li {
+  border-radius: 0 0 0 0 !important;
+}
+
+.caption form input {
+  border-radius: 0 0 0 0 !important;
+}
+
+/* ===== MAP IFRAME // BUTTON ========== */
+
+/* Checkbox Hack */
+/* Default State */
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+label.togglebtn {
+  -webkit-appearance: normal;
+  background-color: #85739B;
+  color: white;
+  outline: none;
+  border: none !important;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+  overflow: hidden;
+}
+
+label img {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  pointer-events: none;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  z-index: 99999999999;
+}
+
+.post-icon {
+  left: 50%;
+}
+
+.map-icon {
+  left: -125%;
+  width: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.cam-icon img {
+  left: -200%;
+}
+
+label div{
+  background-color: #85739B;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+
+#siteloader {
+  background-color: darkgray;
+  position: absolute;
+  border: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  overflow: auto;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+object {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.click-swipe {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  background-color: #FFFFCA;
+  border: none;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+/* Toggled State */
+
+input[type=checkbox]:checked ~ label img {
+  left: 50%;
+}
+
+input[type=checkbox]:checked ~ label .map-icon {
+  left: 25%;
+}
+
+input[type=checkbox]:checked ~ label .post-icon {
+  top: -50%;
+}
+
+input[type=checkbox]:checked ~ #siteloader {
+  top: 100%;
+  left: -50%;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+input[type=checkbox]:checked ~ label .click-swipe {
+  left: 50%;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+input[type=checkbox]:checked ~ label .cam-icon {
+  left: 50%;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
